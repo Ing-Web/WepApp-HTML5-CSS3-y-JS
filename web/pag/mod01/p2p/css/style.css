@@ -1,0 +1,42 @@
+html {
+    background: #6d4c41;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    width: 60%;
+    background: #64b5f6;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    display: table;
+    margin: 0 auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.regresarIndice{
+
+    text-align: right;
+}

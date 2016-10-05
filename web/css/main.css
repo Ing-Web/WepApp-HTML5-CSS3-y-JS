@@ -1,0 +1,66 @@
+html {
+    background: #6d4c41;
+    padding: 5px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #64b5f6;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+a:active {
+    color: #0277bd;
+}
+
+a:hover {
+    color: yellow;
+}
+
+section {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    background: rgba(109, 76, 65, 1);
+    /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(109, 76, 65, 1) 0%, rgba(109, 76, 65, 0.88) 12%, rgba(237, 237, 237, 0) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d4c41', endColorstr='#ededed', GradientType=1);
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background: #0277bd;
+    padding: 5px;
+    border: 0px;
+    border-radius: 10px;
+
+}
+
+code {
+    color: purple;
+    font-size: 1.5em;
+}
+
+.textoDerecha {
+    text-align: right !important;
+}

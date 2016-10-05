@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Declaraciones de estilo CSS que afecten al mismo elemento</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <style>
+        h2{
+            color:gold;
+        }
+        header h2{
+            color: aliceblue;
+        }
+        .rosaProfundo{
+            color: deeppink;
+        }
+        #amarillo{
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+<section>
+    <h1>Declaraciones de estilo CSS que afecten al mismo elemento.</h1>
+    <p>En este ejemplo aplicamos declaraciones CSS que afectan a un mismo elemento, su puntuación se indica como
+        comentario dentro del HTML5.</p>
+
+</section>
+
+
+
+
+<section>
+    <div id="caja">
+        <!--vamos a usar H2 en lugar de H1, dado que ya le estoy aplicando varios estilos-->
+        <header class="cabecera">
+
+            <!--Gana la Puntuación = 1,0,0,1. aplicada sobre la linea. color: purple-->
+            <h2 style="color: purple">Cabecera: header</h2>
+
+            <!--Gana la Puntuación = 0,0,0,2. contiene dos marcas. color: aliceblue -->
+            <h2 >Cabecera: header</h2>
+
+            <!--Gana la Puntuación = 0,0,1,1. aplicada usando una clase. color: deeppink -->
+            <h2 class="rosaProfundo">Cabecera: header</h2>
+
+            <!--Gana la Puntuación = 0,1,0,1. aplicada usando un id. color: yellow -->
+            <h2 id="amarillo">Cabecera: header</h2>
+        </header>
+
+    </div>
+</section>
+
+
+
+
+
+
+<section>
+    <p class="regresarIndice"><a href="../../../">Regresar al indice</a></p>
+</section>
+
+
+</body>
+</html>

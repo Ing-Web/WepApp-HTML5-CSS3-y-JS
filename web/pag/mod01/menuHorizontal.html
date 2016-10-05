@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Un menú vertical y horizontal con FLEX</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+        }
+
+        li {
+            flex-grow: 1;
+        }
+
+        section a {
+            display: block;
+            padding: 1em;
+            background-color: lightgrey;
+            text-align: center;
+            margin-right: 0.2em;
+            margin-bottom: 0.2em;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h1>Un menú vertical y horizontal con FLEX</h1>
+    <p>Para crear un menú, debemos usar una lista desordenada, en los li creamos los hiperbinculos.
+        La propiedad <code>flex-direction</code> con los valores <code>row</code> y <code>column</code> nos permite
+        espeficicar si el vertical u horizontal</p>
+    <p>Tambien debemos aplicar el modificador <code>list-style-type:none;</code> para quitar las viñetas y realizar
+        otras modificaciones para lograr el efecto deseado</p>
+    <hr>
+    <ul>
+        <li><a href="#">Opción 1 &rang;&rang;</a></li>
+        <li><a href="#">Opción 2 &rang;&rang;</a></li>
+        <li><a href="#">Opción 3 &rang;&rang;</a></li>
+        <li><a href="#">Opción 4 &rang;&rang;</a></li>
+    </ul>
+
+</section>
+
+<section>
+    <p > <a href="../../" class="textoDerecha">Para regresar al inicio haga click aqui.</a></p>
+</section>
+
+</body>
+</html>
