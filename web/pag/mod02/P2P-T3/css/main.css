@@ -1,9 +1,8 @@
-
 html {
     background: #6d4c41;
 }
 
-section, footer{
+section, footer {
     font-family: 'Ubuntu', sans-serif;
     max-width: 900px;
     background: #64b5f6;
@@ -21,7 +20,8 @@ section, footer{
 h1, h2 {
     text-align: center;
 }
-h1{
+
+h1 {
     font-size: 3em;
 }
 
@@ -30,11 +30,7 @@ p {
     text-align: justify;
     padding: 20px;
 }
-img, iframe {
-    margin: 0 auto;
-}
 
-.regresarIndice{
+.regresarIndice {
     text-align: right;
 }
-

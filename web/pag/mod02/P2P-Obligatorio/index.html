@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página personal de Hernán Velásquez</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Página personal de Hernán Velásquez</h1>
+    <hr>
+</header>
+<section>
+    <h2>Descripción de la actividad</h2>
+    <p>Crear una página web personal simulada, que incluya al menos:</p>
+    <ol>
+        <li>Uso de colores para texto y fondo, incluyendo al menos colores degradados en alguna de sus cajas.</li>
+        <li>Inclusión de tipografías externas de Google Fonts, Adobe Edge Web Fonts o un servicio similar on line.</li>
+        <li>Distintos encabezados.</li>
+        <li>Uso de caracteres especiales</li>
+        <li>Incluir, imágenes de tipo bitmap y vectorial.</li>
+        <li>Incluir algún vídeo.</li>
+        <li>Incluir bordes redondeados en alguna de sus cajas.</li>
+        <li>La página debe comenzar con el siguiente encabezamiento: "Página personal de &lt;nombre y apellido del
+            alumno&gt;"
+        </li>
+    </ol>
+</section>
+
+<section class="media">
+    <h3>1. Uso de colores para texto y fondo, incluyendo al menos colores degradados en alguna de sus cajas</h3>
+    <p>Para cumplir con este requirimiento, he usado dos colores principales, el marrón, cuyo código hexadecimal es
+        <code>#6d4c41;</code> y el azul, con código <code>#64b5f6;</code>
+        También he usado un degradado para las etiquetas <code>&lt;section&gt;</code>, se trata de un degradado lineal
+        que usa los mismos dos colores, marrón y azul, también una sombra al lado derecho para lograr que se note los
+        límites y no se confunda con el fondo de la etiqueta <code>&lt;html&gt;</code>.</p>
+</section>
+
+<section class="media">
+    <h3>2. Inclusión de tipografías externas de Google Fonts, Adobe Edge Web Fonts o un servicio similar on line</h3>
+    <p>En este caso, estoy haciendo uso del servicio de Google, que cuenta con una amplia variedad de fuentes, para este
+        ejemplo, estoy usando la fuente Ubuntu en todo el documento, excepto para mostrar los códigos de los colores y
+        las etiquetas de HTML5, para los cuales estoy usando la fuente Raleway</p>
+</section>
+
+<section class="media">
+    <h3>3. Distintos encabezados.</h3>
+    <p>Se han usado encabezados <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code> y <code>&lt;h3&gt;</code> de diferentes
+        tamaños, además se les ha aplicado las pseudo clases <code>hover</code> y <code>active</code>.
+        Se han usado diferentes tamaños y los mismos colores para cada uno de los encabezados</p>
+
+</section>
+
+<section class="media">
+    <h3>4. Uso de caracteres especiales</h3>
+    <p>En las anteriores secciones se han usado los caracteres especiales <code>&lt;</code> y <code>&gt;</code> para
+        encerrar las etiquetas HTML.
+        ahora vamos a escribir algunas fórmulas matemáticas para incluir otros caracteres especiales:
+    <ul class="formulas">
+        <li>&int; dx = x+C &rightarrow; Integral de x</li>
+        <li>L = (2*&pi;*r*a)/360<sup>o</sup> &rightarrow; Longitud de un arco de circunferencia</li>
+        <li>A=&pi;*r<sup>2</sup> &rightarrow; Área del círculo</li>
+    </ul>
+    </p>
+</section>
+
+<section>
+    <h3>5. Incluir, imágenes de tipo bitmap y vectorial.</h3>
+    <div class="media"><span>Imagen Tipo Bitmap</span><br>
+        <img src="img/balon_futbol.jpg" width="360px" alt="balón de futbol">
+    </div>
+    <div class="media"><span>Imagen Tipo SVG</span>
+        <img src="img/balon.svg" width="360px" alt="balon con SVG">
+    </div>
+</section>
+
+<section>
+    <h3>6. Incluir algún vídeo</h3>
+    <div class="media">
+        <p>Vamos a usar la etiqueta &lt;iframe&gt; para mostrar el siguiente video desde Youtube:</p>
+        <iframe src="https://www.youtube.com/embed/oiqciak0L7E" width="360px" height="360px" frameborder="0"
+                allowfullscreen></iframe>
+    </div>
+    <div class="media">
+        <p>Ahora usaremos la equiqueta &lt;video&gt; de HTML5 para mostrar el siguiente video:</p>
+        <video height="360px" width="360px" preload="auto" controls>
+            <source src="video/MOOC.mov" type=video/MP4>
+            <source src="video/MOOC.webm" type="video/webm">
+        </video>
+    </div>
+</section>
+
+<section class="media">
+    <h3>7. Incluir bordes redondeados en alguna de sus cajas.</h3>
+    <p>Se han incluido muchos bordes redondeados, la etiqueta &lt;body&gt; tiene un leve borde redondeado en las cuatro esquinas.
+    Las etiquetas &lt;section&gt; poseen bordes redondeados diferentes en las esquinas superiores y en las inferiores. </p>
+</section>
+
+<section class="media">
+    <h3>8. La página debe comenzar con el siguiente encabezamiento: "Página personal de &lt;nombre y apellido del
+        alumno&gt;"</h3>
+    <p>Para cumplir este requisito, en la sección del &lt;header&gt; pusimos un titulo de primer nivel con el que se cumple esta indicación, además, en el título también se puso este mismo texto.</p>
+</section>
+<footer>
+    <spam class="regresarIndice"><a href="../../../">Regresar al indice</a></spam>
+</footer>
+
+</body>
+</html>

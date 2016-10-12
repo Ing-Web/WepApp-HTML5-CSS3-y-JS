@@ -1,0 +1,110 @@
+html {
+    background-color: #6d4c41;
+}
+
+.media {
+    width: 40%;
+    display: inline-block;
+}
+
+.formulas {
+    font-family: "Wingdings 2" !important;
+}
+
+hr {
+    background-color: #6d4c41;
+    height: 5px;
+    margin-bottom: 25px;
+}
+
+h1, h2, h3 {
+    color: gold;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: aquamarine;
+}
+
+h1:active, h2:active, h3:active {
+    color: brown;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+span {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+p::first-letter {
+    font-size: 3em;
+}
+
+li {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+code {
+    color: #aed581;
+    font-family: 'Raleway', sans-serif;
+}
+
+div {
+    margin: 20px;
+    border-right-style: solid;
+}
+
+body {
+    border: inherit 10px;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1100px;
+    background: #64b5f6;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+section {
+    margin: 35px;
+    padding: inherit;
+    background-color: #6d4c41;
+    border-top-left-radius: 30% 15%;
+    border-top-right-radius: 30% 15%;
+    border-bottom-left-radius: 35% 5%;
+    border-bottom-right-radius: 35% 5%;
+
+    background: rgba(109, 76, 65, 1);
+    background: -moz-linear-gradient(45deg, rgba(109, 76, 65, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /*background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(109, 76, 65, 1)), color-stop(100%, rgba(255, 255, 255, 0)));*/
+    background: -webkit-linear-gradient(45deg, rgba(109, 76, 65, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(45deg, rgba(109, 76, 65, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(45deg, rgba(109, 76, 65, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(45deg, rgba(109, 76, 65, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d4c41', endColorstr='#ffffff', GradientType=1);
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
