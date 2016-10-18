@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>Esto es titulo</h1>
+<p>
+    <input type="text" id="caja" value="555">
+
+    <br><br>
+    <script>
+        var cantidadDolar = 49;
+        var valorLibra = 5;
+        var valorPeso = 3005
+        document.write(document.getElementById("caja").getAttribute("value")+"<br>");
+        document.write(cantidadDolar + " dolores convertidos en pesos son <strong>" + cantidadDolar * valorPeso + "</strong> pesos.<br>");
+        document.write(cantidadDolar + " dolores convertidos en libras son <strong>" + cantidadDolar * valorLibra + "</strong> libras.");
+
+        document.write("<br><br><br>")
+
+        var factorial = function fac(n) {
+            return n < 2 ? 1 : n * fac(n - 1)
+        };
+        var facto = 10;
+        document.write("El factorial de " + facto + " es: " + factorial(facto) + ".<br>");
+        //print(factorial(3));
+    </script>
+</p>
+
+</body>
+</html>

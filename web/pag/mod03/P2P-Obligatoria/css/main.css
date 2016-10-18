@@ -1,0 +1,44 @@
+/*para que la propiedad 2 no se muestre en los lineas*/
+h2{
+    display: inline;
+}
+
+html {
+    background: #6d4c41;
+}
+
+section, footer {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 900px;
+    background: #64b5f6;
+    border-top-left-radius: 30% 15%;
+    border-top-right-radius: 30% 15%;
+    border-bottom-left-radius: 35% 5%;
+    border-bottom-right-radius: 35% 5%;
+    margin: 20px auto;
+    padding: 25px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+strong{
+    background-color: goldenrod;
+    color: darkslateblue;
+    padding: 4px;
+}
+li{
+    margin: 20px;
+    line-height: 25px;
+}
+
+.regresarIndice {
+    text-align: right;
+}

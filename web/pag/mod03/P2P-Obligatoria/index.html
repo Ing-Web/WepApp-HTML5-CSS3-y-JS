@@ -1,0 +1,60 @@
+<!DOCTYPE html><html>
+<head>
+    <title>Date</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+<section>
+    <h1 id="h1"></h1>
+    <h2 id="persona">Entregado por: </h2><br>
+    <h2 id="h2">La fecha y la hora son:</h2><br>
+    <div id="fecha"></div><br>
+    <div id="propiedades"></div>
+</section>
+
+
+<script type="text/javascript">
+    var fecha = new Date();
+    var msj;
+    var persona = "Hernán Velásquez"
+
+    //la sigueine linea muestra un h2 y una lista ordenada, en la cual vamos a mostrar cada una de las propiedades.
+    var propiedades = "<h2>Propiedades DOM</h2> <ol>";
+
+
+    if      (fecha.getHours() < 7)  { msj = "Buenas noches";}
+    else if (fecha.getHours() < 12) { msj = "Buenos días";}
+    else if (fecha.getHours() < 21) { msj = "Buenas tardes";}
+    else { msj = "Buenas noches";}
+    document.getElementById("h1").innerHTML    = msj;
+    document.getElementById("fecha").innerHTML = fecha;
+    document.getElementById("persona").innerHTML = document.getElementById("persona").innerHTML + persona;
+    var pro1 = document.getElementById("h2").innerHTML;
+    propiedades+= "<li>Contenido de innerHTML de elemento identificado por id=\"h2\": <strong>"+ pro1 +"</strong></li>";
+
+    var pro2 = document.getElementById("h2").outerHTML;
+    propiedades+= "<li>Contenido de outerHTML de elemento identificado por id=\"h1\": <strong>"+ pro2 +"</strong></li>";
+
+    var pro3 = location.href;
+    propiedades+= "<li>Contenido de de la propiedad global: location.href: <strong>"+ pro3 +"</strong></li>";
+
+    var pro4 = location;
+    propiedades+= "<li>Contenido de de la propiedad global: location: <strong>"+ pro4 +"</strong></li>";
+
+    var pro5 = "Ancho: " + screen.width + " y alto: " + screen.height;
+    propiedades+= "<li>Contenido de de las propiedades globales: screen.width y screen.heigth: <strong>"+ pro5 +"</strong></li>";
+
+    propiedades+= "</ol>";
+
+    document.getElementById("propiedades").innerHTML = propiedades;
+
+</script>
+<footer>
+    <p class="regresarIndice"><a href="../../../">Regresar al indice</a></p>
+</footer>
+</body>
+</html>
