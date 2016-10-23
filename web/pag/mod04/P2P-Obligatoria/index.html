@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript DOM, String, Numeros, eventos e iteración</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+<body>
+<section>
+    <h2 id="saludo"></h2>
+    <h3>Descripción Actividad:</h3>
+    <p>
+        Añadir a la calculadora el siguiente título: <br><br>
+
+        “Buenos días, bienvenido a la calculadora de &lt;nombre y apellido de la persona&gt;<br><br>
+
+        Integrar además en una sola calculadora los siguientes botones de operaciones matemáticas:<br><br>
+
+        1) Operaciones unitarias (con un solo operando):<br>
+        1.1) x^2 (número elevado al cuadrado)<br>
+        1.2) 1/x (inverso del número)<br>
+        1.3) sqrt(x) (raiz cuadrada del número)<br>
+        1.4) parte_entera(x) (parte entera de x: si x es positivo devuelve Math.floor(x) y si es negativo devuelve -Math.ceil(x))<br>
+        <br>
+        2) Operaciones binarias (con dos operandos):<br>
+        2.1) +. -. *, / (suma, resta, multiplicación y división)<br>
+        2.2) x^y (x elevado a y)<br>
+    </p>
+</section>
+
+<section>
+    Número:
+    <input type="text" id="n1" onfocus="vaciar()">
+    <p>
+        Operaciones unitarias (con un solo operando):
+        <button class="myButton" onclick="cuadrado()">x<sup>2</sup></button>
+        <button class="myButton" onclick="inverso()"> 1/x </button>
+        <button class="myButton" onclick="raizCuadrada()"> &Sqrt; </button>
+        <button class="myButton" onclick="parteEntera()">Parte entera</button>
+
+    </p>
+
+    <p>
+        Operaciones binarias (con dos operandos):
+        <button class="myButton" onclick="suma()">+</button>
+        <button class="myButton" onclick="resta()">-</button>
+        <button class="myButton" onclick="division()">/</button>
+        <button class="myButton" onclick="multiplicacion()">*</button>
+        <button class="myButton" onclick="potencia()">x<sup>y</sup></button>
+        <button class="myButton" onclick="calcular()">=</button>
+
+
+    </p>
+</section>
+
+<footer>
+    <p class="regresarIndice"><a href="../../../">Regresar al indice</a></p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
