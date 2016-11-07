@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background: url(../img/fondo.jpg)  #000;
+    background-size: cover;
+}
+section{
+    width: 80%;
+    max-width: 1200px;
+   // background-color: black;
+    background: url(../img/fondo.jpg) #000;
+    background-size: cover;
+    border-radius: 10px;
+    margin:auto;
+    padding: 20px;
+    position: relative;
+}
+.medio{
+    display: inline-block;
+}
+
+.container {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    margin:auto;
+}
+
+#fecha, #hora, #indicador, #segundos {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    line-height: 1em;
+}
+
+#fecha {
+    font-size: 3em;
+}
+
+#hora {
+    font-size: 15em;
+    display: inline-block;
+}
+
+#indicador, #segundos {
+    font-size: 6em;
+}
