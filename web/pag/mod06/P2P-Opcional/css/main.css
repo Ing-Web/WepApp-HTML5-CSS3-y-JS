@@ -1,14 +1,3 @@
-.carousel-inner .item img,
-.carousel-inner .item img               { width: 100%;}
-.container .carousel-indicators .active { background-color: #1277ff;}
-.container .carousel-indicators li      { border: 1px solid #dad00e;}
-.container .panel-footer                { margin-top:20px;}
-
-
-ul{
-    margin: 20px;
-}
-
 .regresarIndice {
     text-align: right;
 }
