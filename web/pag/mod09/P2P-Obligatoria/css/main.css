@@ -1,0 +1,40 @@
+body{
+    background: rgba(0,255,0,0.5);
+    font-family: 'Droid Sans', 'Helvetica', Arial, sans-serif;
+}
+
+#latlng{
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute; /* posición absoluta a navegador */
+    top: 0;             /* ajusta a borde de navegador */
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#map{
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute; /* posición absoluta a navegador */
+    top: 50px;      /* 50px debajo de borde de navegador */
+    left: 0;        /* ajusta a borde de navegador */
+    right: 0;
+    bottom: 0;
+    background: #5d4037; /* verde si no hay mapa */
+    height: 500px;
+}
+footer{
+    display: inline;
+    padding: 10px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 550px;
+}
+
+button{
+    text-align: center;
+}

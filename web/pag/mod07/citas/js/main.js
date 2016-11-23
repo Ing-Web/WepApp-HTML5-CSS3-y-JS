@@ -30,7 +30,6 @@
     };
 
     function borrar(i) {
-        console.log("dddd");
         frases.splice(i, 1);
         actualizarVista();
     }
